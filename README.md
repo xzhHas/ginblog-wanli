@@ -10,7 +10,7 @@
 ## 功能展示
 
 
-[B 站视频]()
+[B 站视频](https://www.bilibili.com/video/BV1te81eGEpg/?spm_id_from=333.999.0.0&vd_source=ae71f49143fab0ea36d2175f17f48b81)
 
 图片展示：
 
