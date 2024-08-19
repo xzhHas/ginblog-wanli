@@ -4,7 +4,7 @@
 
 基于vue3和gin框架开发的前后端分离个人博客系统，包含md格式的文本编辑展示，点赞评论收藏，新闻热点，匿名聊天室，文章搜索等功能。
 
-项目可在线访问：[http://bloggo.chat/](http://bloggo.chat/) 或 [http://59.110.34.61/](http://59.110.34.61/)
+项目可在线访问：[http://bloggo.chat/](http://bloggo.chat/) 
 
 ---
 
@@ -495,7 +495,9 @@ docker compose up -d
 #启动后端应用
 cd xxxxx/gvb/gvb_server/
 ./main -es create (首先创建es的索引)
-./main （启动后端程序）
+nohup ./main > main.log 2>&1 & （启动后端程序）
+
+tail -f main.log  (访问日志)
 ```
 
 访问应用
