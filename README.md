@@ -502,12 +502,6 @@ tail -f main.log  (访问日志)
 
 ---
 
-## TODO
-#### 待优化项
-- [ ]  配置https访问时聊天室不可用，只能http+ws，后端ws -> wss待优化
-- [ ]  docker-compose一键启动项目
-- [ ]  前台适配移动端
-
 ## 最后
 
-感谢观看。
+万里code，二次开发开源项目。
